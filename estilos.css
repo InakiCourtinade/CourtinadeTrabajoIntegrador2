@@ -1,0 +1,138 @@
+
+
+
+
+
+body{
+   background: url('Fondo\ Principal.jpg');
+   background-size:cover;
+   font-family: serif;
+   background-position: center;
+   background-attachment: fixed;
+   margin: 0;
+}
+
+
+h1{
+    color: aliceblue;
+}
+header{
+    display: flex;
+    background: cornflowerblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-height: 100px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    max-width: 90px;
+    max-height: 90px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+    font-size: 20px;
+    
+    
+
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+p{
+    color: aliceblue;
+}
+
+.nosotros{
+    margin-top: 40px;
+    padding: 25px;
+    background: rgba(18, 83, 168, 0.247);
+    border-radius:5px;
+    backdrop-filter: blur(7px);
+    font-size: 25px;
+    max-width: 1200px;
+    border: 3px solid aliceblue;
+} 
+.imagen2{
+    max-width: 570px;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media (max-width: 1380px) {
+    .imgCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .imgCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:800px){
+    .imagen2{
+        max-width: 500px;
+    }
+    .imgCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:600px){
+    
+    
+    header{
+        flex-direction: column;
+        padding: 20px;
+        min-height: 100px;
+        
+    }
+    nav{
+        padding:10px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .container1{
+        padding: 30px;
+    }
+
+    .imagen2{
+        max-width: 350px;
+        
+    }
+    .nosotros{
+        width: 350px;
+    }
+}
